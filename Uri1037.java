@@ -6,13 +6,13 @@ public class Uri1037 {
         
         // BEE 1037: Intervalo
 
-        // declaração de variáveis
+        // declaracao de variaveis
         double numero;
 
         // entrada
         numero = teclado.nextDouble();
 
-        // processamento e saída
+        // processamento e saida
         if (numero >= 0 && numero <= 25) {
             System.out.println("Intervalo [0,25]");
         }

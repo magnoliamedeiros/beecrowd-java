@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class Uri1002{
-    
-    public static void main(String args[]){
+public class Uri1002 {
+    public static void main (String[] args) {
         Scanner teclado = new Scanner(System.in);
+        
+        // BEE 1002: Area do Circulo
 
-        // declaração
+        // declaracao de variaveis
         double PI = 3.14159;
         double raio, area;
 
@@ -15,7 +16,7 @@ public class Uri1002{
         // processamento
         area = PI * (raio * raio);
 
-        // saída
+        // saida
         System.out.printf("A=%.4f\n", area);
         teclado.close();
     }

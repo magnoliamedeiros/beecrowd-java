@@ -4,14 +4,14 @@ public class Uri1074 {
     public static void main (String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        // BEE: Par ou Impar
+        // BEE 1074: Par ou Impar
 
         // declaracao de variaveis
         int valor;
         int repeticoes;
 
         // entrada
-        // numeros me dá a quantida de repeticoes
+        // numeros me dah a quantida de repeticoes
         repeticoes = teclado.nextInt();
 
         // processamento e saida

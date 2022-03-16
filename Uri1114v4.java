@@ -18,6 +18,7 @@ public class Uri1114v4 {
             // ler novamente
             senha = teclado.nextInt();
         }
+        
         // saida
         System.out.println("Acesso Permitido");
 

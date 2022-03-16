@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class Uri1001{
-
-    public static void main(String args[]){
+public class Uri1001 {
+    public static void main (String args[]) {
         Scanner teclado = new Scanner(System.in);
-       
-        // declaração das variáveis
+
+        // BEE 1001: Extremamente Basico
+
+        // declaracao de variaveis
         int a, b, x;
 
         // entrada
@@ -15,7 +16,7 @@ public class Uri1001{
         // processamento
         x = a + b;
 
-        // saída
+        // saida
         System.out.println("X = " + x);
 
         teclado.close();

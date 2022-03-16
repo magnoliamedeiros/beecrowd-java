@@ -9,6 +9,7 @@ public class Uri1114v3 {
         // declaracao de variaveis
         int senha;
 
+        // processamento e saida
         while (true) {
             senha = teclado.nextInt();
 

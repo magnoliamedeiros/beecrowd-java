@@ -5,6 +5,8 @@ public class Uri1006{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
 
+        // BEE 1006: Média 2
+
         // declação
         double notaA, notaB, notaC, MEDIA;
 

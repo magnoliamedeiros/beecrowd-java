@@ -8,14 +8,14 @@ public class Uri1018 {
 
         // BEE 1018: Cédulas
 
-        // Declaração
+        // declaração
         int valor, q100, q50, q20, q10, q5, q2, q1;
         int resto;
 
-        // Entrada
+        // entrada
         valor = teclado.nextInt();
 
-        // Processamento
+        // processamento
         q100    = valor / 100;
         resto   = valor % 100; // o que sobra armazena no resto
 
@@ -37,7 +37,7 @@ public class Uri1018 {
         q1      = resto / 1;
         resto   = resto % 1;
 
-        // Saída
+        // saída
         System.out.println(valor);
         System.out.println(q100 + " nota(s) de R$ 100,00");
         System.out.println(q50 + " nota(s) de R$ 50,00");

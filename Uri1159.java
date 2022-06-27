@@ -28,7 +28,6 @@ public class Uri1159 {
             }
         }
 
-        // saída
         teclado.close();
     }
 }

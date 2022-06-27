@@ -8,20 +8,19 @@ public class Uri1021 {
 
         // BEE 1021: Notas e Moedas
 
-        // Declaração de variáveis
+        // declaração
         double valor, centavos;
         int cedulaN, moedaN;
         int q100, q50, q20, q10, q5, q2, q1;
         int q050, q025, q010, q005, q001;
         int resto;
 
-        // Entrada
+        // entrada
         valor = teclado.nextDouble();
 
-        // Processamento
+        // processamento
         // separar a parte inteira da parte decimal
         cedulaN = (int)valor; // pegando apenas a parte inteira
-
         centavos = valor - cedulaN; // pegando apenas os centavos
 
         // convertendo os centavos em inteiro
@@ -62,7 +61,7 @@ public class Uri1021 {
         q005    = resto / 5;
         q001   = resto % 5;
 
-        // Saída
+        // saída
         System.out.println("NOTAS:");
         System.out.println(q100 + " nota(s) de R$ 100.00");
         System.out.println(q50 + " nota(s) de R$ 50.00");

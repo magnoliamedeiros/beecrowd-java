@@ -27,7 +27,6 @@ public class Uri1159 {
                 soma = valor + 1;
             }
         }
-
         teclado.close();
     }
 }

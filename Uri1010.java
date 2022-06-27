@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Uri1010 {
 
-    public static void main (String args[]) {
+    public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
 
         // BEE 1010: Cálculo Simples
@@ -11,7 +11,7 @@ public class Uri1010 {
         int codigo1, codigo2, quantidade1, quantidade2;
         double valorUnitario1, valorUnitario2, subTotalPagar1, subTotalPagar2, total;
 
-        // entrada
+        // entradas
         codigo1 = teclado.nextInt();
         quantidade1 = teclado.nextInt();
         valorUnitario1 = teclado.nextDouble();

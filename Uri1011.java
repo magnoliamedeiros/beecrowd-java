@@ -7,7 +7,7 @@ public class Uri1011{
 
         // BEE 1011: Esfera
 
-        // declaracao
+        // declaração
         double raio, volume;
         double PI = 3.14159;
 

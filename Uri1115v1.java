@@ -6,10 +6,10 @@ public class Uri1115v1 {
 
         // BEE 1115: Quadrante (v1)
 
-        // declaracao
+        // declaração
         int x, y; 
 
-        // entrada, processamento e saida
+        // entrada, processamento e saída
         do {
 
             x = teclado.nextInt();
@@ -32,7 +32,7 @@ public class Uri1115v1 {
                 if (x == 0 || y == 0) {
                     break;
                 }
-             */
+            */
 
         } while (x != 0 && y != 0); // equivale tb -> while (x * y != 0)
 

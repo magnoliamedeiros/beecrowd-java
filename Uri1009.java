@@ -7,7 +7,7 @@ public class Uri1009 {
 
         // BEE 1009: Salário com bônus
 
-        // declaração
+        // declaracao
         String nome;
         double salarioFixo, montanteVendas, salarioFinal, comissao;
 
@@ -20,7 +20,7 @@ public class Uri1009 {
         comissao = (15 * montanteVendas) / 100;
         salarioFinal = salarioFixo + comissao;
 
-        // saída
+        // saida
         System.out.printf("TOTAL = R$ %.2f\n", salarioFinal);
         
         teclado.close();

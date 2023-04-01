@@ -4,7 +4,7 @@ public class Uri1002 {
     public static void main (String[] args) {
         Scanner teclado = new Scanner(System.in);
         
-        // BEE 1002: Area do Circulo
+        // BEE 1002: Área do Círculo
 
         // declaracao de variaveis
         double PI = 3.14159;

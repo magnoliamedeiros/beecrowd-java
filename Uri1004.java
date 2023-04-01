@@ -19,6 +19,7 @@ public class Uri1004{
 
         // saida
         System.out.printf("PROD = %d\n", PROD);
+        
         teclado.close();
     }
 }

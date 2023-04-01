@@ -5,9 +5,9 @@ public class Uri1006{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
 
-        // BEE 1006: Média 2
+        // BEE 1006: Média II
 
-        // declação
+        // declacao de variaveis
         double notaA, notaB, notaC, MEDIA;
 
         // entrada
@@ -18,8 +18,9 @@ public class Uri1006{
         // processamento
         MEDIA = (notaA * 2 + notaB * 3 + notaC*5)/10;
 
-        // saída
+        // saida
         System.out.printf("MEDIA = %.1f\n", MEDIA);
+
         teclado.close();
     }
 }

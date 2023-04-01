@@ -5,9 +5,9 @@ public class Uri1005{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
 
-        // BEE 1005: Média 1
+        // BEE 1005: Média I
         
-        // declaração
+        // declaracao de variaveis
         double a, b, media;
 
         // entrada
@@ -17,7 +17,7 @@ public class Uri1005{
         // processamento
         media = (a * 3.5 + b * 7.5) / 11;
     
-        // saída com 5 digitos de precisão
+        // saida com 5 digitos de precisao
         System.out.printf("MEDIA = %.5f\n", media);
 
         teclado.close();

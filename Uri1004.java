@@ -5,9 +5,9 @@ public class Uri1004{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
 
-         // BEE 1004: Produto simples
+        // BEE 1004: Produto simples
 
-        // declaração
+        // declaracao de variaveis
         int valor1, valor2, PROD;
 
         // entrada
@@ -17,7 +17,7 @@ public class Uri1004{
         // processamento
         PROD = valor1 * valor2;
 
-        // saída
+        // saida
         System.out.printf("PROD = %d\n", PROD);
         teclado.close();
     }

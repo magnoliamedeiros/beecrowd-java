@@ -4,7 +4,7 @@ public class Uri1001 {
     public static void main (String args[]) {
         Scanner teclado = new Scanner(System.in);
 
-        // BEE 1001: Extremamente Basico
+        // BEE 1001: Extremamente Básico
 
         // declaracao de variaveis
         int a, b, x;

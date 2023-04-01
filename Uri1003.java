@@ -5,7 +5,7 @@ public class Uri1003 {
     public static void main(String[] args){
         Scanner teclado = new Scanner(System.in);
 
-        // BEE 1003: Soma Simples
+        // BEE 1003: Soma simples
 
         // declaracao de variaveis
         int a, b, soma;

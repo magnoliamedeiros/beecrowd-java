@@ -5,13 +5,13 @@ public class Uri1010 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
 
-        // BEE 1010: Cálculo Simples
+        // BEE 1010: Cálculo simples
 
-        // declaração de variáveis
+        // declaracao de variaveis
         int codigo1, codigo2, quantidade1, quantidade2;
         double valorUnitario1, valorUnitario2, subTotalPagar1, subTotalPagar2, total;
 
-        // entradas
+        // entrada
         codigo1 = teclado.nextInt();
         quantidade1 = teclado.nextInt();
         valorUnitario1 = teclado.nextDouble();
@@ -26,7 +26,7 @@ public class Uri1010 {
 
         total = subTotalPagar1 + subTotalPagar2;
 
-        // saída
+        // saida
         System.out.printf("VALOR A PAGAR: R$ %.2f\n", total);
         
         teclado.close();

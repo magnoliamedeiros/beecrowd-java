@@ -7,7 +7,7 @@ public class Uri1008 {
 
         // BEE 1008: Salário
 
-        // declação
+        // declacao de variaveis
         int numeroDoFuncionario, horasTrabalhadas;
         double valorPorHora, valorRecebido;
 
@@ -19,7 +19,7 @@ public class Uri1008 {
         // processamento
         valorRecebido = horasTrabalhadas * valorPorHora;
 
-        // saída
+        // saida
         System.out.printf("NUMBER = %d\n", numeroDoFuncionario);
         System.out.printf("SALARY = U$ %.2f\n", valorRecebido);
 

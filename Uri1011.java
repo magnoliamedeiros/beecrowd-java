@@ -7,7 +7,7 @@ public class Uri1011{
 
         // BEE 1011: Esfera
 
-        // declaração
+        // declaracao de variaveis
         double raio, volume;
         double PI = 3.14159;
 
@@ -17,8 +17,9 @@ public class Uri1011{
         // processamento
         volume = (4 / 3.0) * PI * (raio * raio * raio);
 
-        // saída
+        // saida
         System.out.printf("VOLUME = %.3f\n", volume);
+        
         teclado.close();
     }
 }

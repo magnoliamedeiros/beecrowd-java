@@ -7,7 +7,7 @@ public class Uri1007{
 
         // BEE 1007: Diferença 
 
-        // declaração
+        // declaracao de variaveis
         int a, b, c, d, diferenca;
 
         // entrada
@@ -19,8 +19,9 @@ public class Uri1007{
         // processamento
         diferenca = (a * b) - (c * d);
 
-        // saída
+        // saida
         System.out.println("DIFERENCA = " + diferenca);
+
         teclado.close();
     }
 }

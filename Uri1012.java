@@ -7,7 +7,7 @@ public class Uri1012{
 
         // BEE 1012: Área
 
-        // declaração
+        // declaracao de variaveis
         double a, b, c;
         double PI = 3.14159;
 
@@ -17,22 +17,23 @@ public class Uri1012{
         c = teclado.nextDouble();
 
         // processamento
-        // área do triângulo
+
+        // area do triangulo
         double triangulo = (a * c) / 2;
 
-        // área do círculo
+        // area do circulo
         double circulo = PI * (c * c);
 
-        // área do trapézio
+        // area do trapezio
         double trapezio = (a + b) * c / 2;
         
-        // área do quadrado
+        // area do quadrado
         double quadrado = b * b;
         
-        // área do retângulo
+        // area do retangulo
         double retangulo = a * b;
 
-        // saída
+        // saida
         System.out.printf("TRIANGULO: %.3f\n", triangulo);
         System.out.printf("CIRCULO: %.3f\n", circulo);
         System.out.printf("TRAPEZIO: %.3f\n", trapezio);

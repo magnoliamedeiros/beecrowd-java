@@ -17,7 +17,7 @@ public class Uri1018 {
 
         // processamento
         q100    = valor / 100;
-        resto   = valor % 100; // o que sobra armazena no resto
+        resto   = valor % 100; // o que sobra armazena no resto!
 
         q50     = resto / 50;
         resto   = resto % 50;
